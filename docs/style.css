@@ -1,0 +1,30 @@
+body.page-home {
+  background-color: #9eecff;
+  color: #1a1a1a;
+}
+
+
+nav {
+  margin: 1em 0;
+  font-weight: bold;
+  display: flex;
+  gap: 6px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333; 
+  padding: 0.5em 1em;
+  background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
+  border: 1px solid #cccccc;
+  border-radius: 5px 5px 0 0;
+  box-shadow: inset 0 1px 0 #ffffff;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background: linear-gradient(to bottom, #ff8533 0%, #ff5500 100%);
+  color: #ffffff;
+  border-color: #e64a00;
+  border-radius: 5px 5px 0 0;
+}
