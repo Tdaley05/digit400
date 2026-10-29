@@ -1,6 +1,6 @@
 body.page-home {
-  background-color: #9eecff;
-  color: #1a1a1a;
+    background-color: #ff8c00;
+    color: #542b13;
 }
 
 
@@ -27,4 +27,17 @@ nav a:hover {
   color: #ffffff;
   border-color: #e64a00;
   border-radius: 5px 5px 0 0;
+}
+
+#orangeCircle {
+    transition: fill 1s ease;
+}
+
+#orangeCircle.glow {
+    filter: drop-shadow(0 0 10px white);
+}
+
+svg:hover #orangeCircle {
+    fill:white;
+    transform: scale(1.5);
 }
