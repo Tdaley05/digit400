@@ -1,0 +1,12 @@
+.bold.on {
+    color: purple;
+    background-color: orange;
+}
+
+.bold.hover {
+    color: purple;
+    background-color: yellow;
+}
+.bold.on.hover {
+    background-color: orange;
+}
